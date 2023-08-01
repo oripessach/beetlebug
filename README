@@ -1,0 +1,10 @@
+Beetlebug is a Yocto based Linux system designed to be used as a simple IoT edge device for accessing
+RTSP video cameras behind a firewall, by establishing a Wireguard VPN connection to a cloud server
+and running an RTSP proxy on the VPN IP address. 
+
+Use cases include running cloud based DVR software, gaining remote access to firewall protected 
+IP cameras as well as other situations where one might need to establish an RTSP connection with 
+an IP camera that's on a private network.
+
+It is very much a work in progress, and isn't currently expected to do much without a lot of manual
+configuration. Documentation on how to perform such configuration is currently non-existent.
